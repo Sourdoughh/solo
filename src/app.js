@@ -1,5 +1,23 @@
 $(document).ready(function(){
 
+  // What do I want to do?
+    // - build a grid layout
+    // - be able to position SVGs in a grid
+
+  /////////////////
+  // Build Grid! //
+  /////////////////
+
+  var grid = d3.select('.imageCollection').append('svg')
+                  .attr('width', 1240)
+                  .attr('height', 1748)
+                  .attr('images', 'chart')
+                  .style('stroke', 'black');
+
+  ////////////////////
+  // Image populate //
+  ////////////////////
+
   var accessImages = function(data){
     var total = 14;
     for(var i = 0; i < total; i++){
