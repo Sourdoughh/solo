@@ -11,8 +11,8 @@ $(document).ready(function(){
   var grid = d3.select('.imageCollection').append('svg')
                   .attr('width', 1240)
                   .attr('height', 1748)
-                  .attr('images', 'chart')
-                  .style('stroke', 'black');
+                  .attr('class', 'images')
+                  .attr('style', 'outline: thin solid black');
 
   ////////////////////
   // Image populate //
