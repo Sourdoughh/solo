@@ -1,4 +1,6 @@
-$('printButton').on('click', function(){
-  console.log('poop');
-  // $('imageCollection').printElement();
+$(document).ready(function(){
+  $('.printButton').on('click', function(){
+    console.log('poop');
+    $('.imageCollection').printElement();
+  })
 })

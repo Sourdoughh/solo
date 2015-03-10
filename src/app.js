@@ -1,50 +1,31 @@
 $(document).ready(function(){
 
-  // What do I want to do?
-    // - build a grid layout
-    // - be able to position SVGs in a grid
-
-  /////////////////
-  // Build Grid! //
-  /////////////////
-
-  // var grid = d3.select('.imageCollection')
-  //              .append('svg')
-  //              .attr('width', 1748)
-  //              .attr('height', 1240)
-  //              .attr('class', 'images')
-  //              .attr('style', 'outline: 1px solid black');
-
-  // grid.append('div')
-  //     .attr('width', 437)
-  //     .attr('height', 620)
-  //     .attr('style', 'outline: 1px solid red')
-  //     .style('fill', 'red');
-
-  // var pic = document.createElementNS('http://www.w3.org/2000/svg','image');
-  // pic.setAttributeNS(null,'height','437');
-  // pic.setAttributeNS(null,'width','620');
-  // pic.setAttributeNS('http://www.w3.org/1999/xlink','href', data.data[i].images.standard_resolution.url);
-  // pic.setAttributeNS(null,'x','0');
-  // pic.setAttributeNS(null,'y','0');
-  // pic.setAttributeNS(null, 'visibility', 'visible');
-  // $('svg').append(pic);
-
   ////////////////////
   // Image populate //
   ////////////////////
 
   var accessImages = function(data){
     var total = 8;
-    for(var i = 0; i < total; i++){
+    var max = 16;
 
+    for(var i = 0; i < total; i++){
       if(data.data[i].type === 'video'){
         total++;
+        max++;
       };
-
       if(data.data[i].type !== 'video'){
         var img = '<img src=' + data.data[i].images.standard_resolution.url + '>';
         $('.imageCollection').append(img);
+      };
+    }
+
+    for(var i = total; i < max; i++){
+      if(data.data[i].type === 'video'){
+        total++;
+      };
+       if(data.data[i].type !== 'video'){
+        var img = '<img src=' + data.data[i].images.standard_resolution.url + '>';
+        $('.imageCollection2').append(img);
       };
     }
   };

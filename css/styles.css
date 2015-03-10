@@ -1,6 +1,6 @@
 img {
-  width: 437px;
-  height: 437px;
+  width: 198px;
+  margin-top: 38.25px;
   padding: 0;
   box-sizing: border-box;
   border-style: dotted;
@@ -8,6 +8,11 @@ img {
 }
 
 .imageCollection {
-  width: 1748px;
-  height: 1240px;
+  width: 792px;
+  height: 612px;
+}
+
+.imageCollection2 {
+  width: 792px;
+  height: 612px;
 }
