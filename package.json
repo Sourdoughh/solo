@@ -1,0 +1,11 @@
+{
+  "name": "2015-02-solo",
+  "version": "0.0.1",
+  "private": true,
+  },
+  "dependencies": {
+    "express": "4.12.2",
+    "passport": "0.2.1",
+    "instagram-node": "0.5.6"
+  }
+}
