@@ -1,0 +1,13 @@
+img {
+  width: 437px;
+  height: 437px;
+  padding: 0;
+  box-sizing: border-box;
+  border-style: dotted;
+  border-width: 1px;
+}
+
+.imageCollection {
+  width: 1748px;
+  height: 1240px;
+}
