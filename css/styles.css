@@ -46,9 +46,9 @@ img {
   margin-right: 0px;
   margin-bottom: 102.6px;
   padding: 0;
-  box-sizing: border-box;
+/*  box-sizing: border-box;
   border-style: dotted;
-  border-width: 1px;
+  border-width: 1px;*/
 }
 
 .imageCollection {
@@ -84,15 +84,9 @@ img {
 /*OTHERS*/
 
 .imageCollection img:nth-child(-n+4){
-  box-sizing: border-box;
-  border-style: solid;
-  border-width: 1px;
   transform: rotate(180deg);
 }
 
 .imageCollection2 img:nth-child(-n+4){
-  box-sizing: border-box;
-  border-style: solid;
-  border-width: 1px;
   transform: rotate(180deg);
 }
