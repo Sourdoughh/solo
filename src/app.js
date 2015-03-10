@@ -8,6 +8,8 @@ $(document).ready(function(){
     var total = 8;
     var max = 16;
 
+    //need to flip 3 4 5 6 - 11 12 13 14
+
     for(var i = 0; i < total; i++){
       if(data.data[i].type === 'video'){
         total++;

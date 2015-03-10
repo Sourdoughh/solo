@@ -41,7 +41,10 @@
 /*95% size*/
 img {
   width: 376.2px;
-  margin-top: 72.675px;
+  margin-top: 100px; /*102.6*/
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 102.6px;
   padding: 0;
   box-sizing: border-box;
   border-style: dotted;
@@ -77,3 +80,19 @@ img {
   width: 1584px;
   height: 1224px;
 }*/
+
+/*OTHERS*/
+
+.imageCollection img:nth-child(-n+4){
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  transform: rotate(180deg);
+}
+
+.imageCollection2 img:nth-child(-n+4){
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  transform: rotate(180deg);
+}
