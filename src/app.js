@@ -21,7 +21,7 @@ $(document).ready(function(){
 
     for(var i = total; i < max; i++){
       if(data.data[i].type === 'video'){
-        total++;
+        max++;
       };
        if(data.data[i].type !== 'video'){
         var img = '<img src=' + data.data[i].images.standard_resolution.url + '>';
@@ -37,13 +37,13 @@ $(document).ready(function(){
   $.ajax({
     type: "GET",
     dataType: "jsonp",
-    url: "https://api.instagram.com/v1/users/31026727/media/recent/?access_token=" + token,
+    url: "https://api.instagram.com/v1/users/self/feed/?access_token=" + token,
     success: accessImages
   });
 
 });
 
-
+//..users/31026727/media/recent/
 
   // laythem out in an order in the correct orientation
 

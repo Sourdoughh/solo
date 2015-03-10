@@ -1,4 +1,5 @@
-img {
+/*Minisizing*/
+/*img {
   width: 198px;
   margin-top: 38.25px;
   padding: 0;
@@ -15,4 +16,64 @@ img {
 .imageCollection2 {
   width: 792px;
   height: 612px;
+}*/
+
+/*90% size*/
+/*img {
+  width: 335.4px;
+  margin-top: 68.85px;
+  padding: 0;
+  box-sizing: border-box;
+  border-style: dotted;
+  border-width: 1px;
 }
+
+.imageCollection {
+  width: 1425.6px;
+  height: 1101.6px;
+}
+
+.imageCollection2 {
+  width: 1425.6px;
+  height: 1101.6px;
+}*/
+
+/*95% size*/
+img {
+  width: 376.2px;
+  margin-top: 72.675px;
+  padding: 0;
+  box-sizing: border-box;
+  border-style: dotted;
+  border-width: 1px;
+}
+
+.imageCollection {
+  width: 1504.8px;
+  height: 1162.8px;
+}
+
+.imageCollection2 {
+  width: 1504.8px;
+  height: 1162.8px;
+}
+
+/*Large*/
+/*img {
+  width: 396px;
+  margin-top: 76.5px;
+  padding: 0;
+  box-sizing: border-box;
+  border-style: dotted;
+  border-width: 1px;
+}
+
+.imageCollection {
+  width: 1584px;
+  height: 1224px;
+}
+
+.imageCollection2 {
+  width: 1584px;
+  height: 1224px;
+}*/
