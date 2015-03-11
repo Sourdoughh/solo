@@ -39,13 +39,14 @@ $(document).ready(function(){
   $.ajax({
     type: "GET",
     dataType: "jsonp",
-    url: "https://api.instagram.com/v1/users/self/feed/?access_token=" + token,
+    url: "https://api.instagram.com/v1/tags/hackreactor/media/recent/?access_token=" + token,
     success: accessImages
   });
 
 });
 
-//..users/31026727/media/recent/
+// https://api.instagram.com/v1/users/self/feed/?access_token=
+//..users/CLIENTID/media/recent/
 
   // laythem out in an order in the correct orientation
 
@@ -75,9 +76,9 @@ $(document).ready(function(){
 
 // // Every call to `ig.use()` overrides the `client_id/client_secret`
 // // or `access_token` previously entered if they exist.
-// ig.use({ access_token: '31026727.41ec349.3442a8c91db24061a90a1c8a623374c4' });
-// ig.use({ client_id: 31026727,
-//          client_secret: '5134aef190cb414199eec1cef820b9af' });
+// ig.use({ access_token: '' });
+// ig.use({ client_id: ,
+//          client_secret: '' });
 
 // var redirect_uri = 'http://localhost';
 
